@@ -1,0 +1,18 @@
+# Backend API folder (root level only)
+
+/api/
+/api/\*\*
+
+# Documentation
+
+\*.md
+!README.md
+
+# Git metadata
+
+.git/
+.github/
+
+# Deployment files
+
+.vercel/
