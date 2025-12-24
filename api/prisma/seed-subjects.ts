@@ -265,6 +265,21 @@ const defaultSubjects: SubjectTemplate[] = [
       "12": { default: 50 },
     },
   },
+  // អប់រំសុខភាព
+  {
+    nameKh: "សេដ្ឋកិច្ច",
+    nameEn: "Economics",
+    code: "HEDU",
+    category: "social",
+    maxScores: {
+      "7": { default: 50 },
+      "8": { default: 50 },
+      "9": { default: 55 },
+      "10": { default: 50 },
+      "11": { default: 55 },
+      "12": { default: 50 },
+    },
+  },
 ];
 
 async function seedSubjects() {
